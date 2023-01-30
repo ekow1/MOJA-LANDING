@@ -51,6 +51,9 @@ a:hover { color: var(--primary-color); }
 
 @media (min-width: 1200px) {
   .container-custom { width: 1140px; }
+  ul li{
+    font-size: .9rem;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -295,3 +298,4 @@ a:hover { color: var(--primary-color); }
   transition: all .5s ease-in-out;
   font-weight: 600;
 }
+
