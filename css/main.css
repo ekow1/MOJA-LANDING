@@ -1,7 +1,7 @@
 :root {
   --primary-color: #0a1118;
   --primary-color-highlight: #233D54;
-  --bs-body-bg: #FBF0F6;
+  --bs-body-bg: #ffff;
   --bs-body-font-family: 'Montserrat', sans-serif;
 }
 
@@ -50,7 +50,7 @@ a:hover { color: var(--primary-color); }
 }
 
 @media (min-width: 1200px) {
-  .container-custom { width: 1140px; }
+  .container-custom { width: 1140px;  font-size: 1.1rem; }
   ul li{
     font-size: .9rem;
   }
