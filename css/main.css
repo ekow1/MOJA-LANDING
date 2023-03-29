@@ -69,6 +69,7 @@ a:hover { color: var(--primary-color); }
 */
 .header {
   z-index: 2;
+  background-color: #fff;
 }
 
 /*
@@ -102,7 +103,7 @@ a:hover { color: var(--primary-color); }
 .hero {
   position: relative;
   height: 100vh;
-  background-color: var(--primary-color);
+  background-color: #fbb824;
   overflow: hidden;
 }
 
@@ -116,16 +117,17 @@ a:hover { color: var(--primary-color); }
   position: absolute;
   top:50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+  /* min-width: 100%;
+  min-height: 80%; */
+  height: 85%;
   width: 100%;
-  height: auto;
-  background-color: #fdb934;
+  /* height: auto; */
+  /* background-color: #fdb934; */
 
   transform: translateX(-50%) translateY(-50%);
 }
 
-.hero__overlay {
+/* .hero__overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -134,7 +136,7 @@ a:hover { color: var(--primary-color); }
   background-color: var(--primary-color);
   opacity: 0.2;
   z-index: 1;
-}
+} */
 
 @-webkit-keyframes blinker {
   from {opacity: 1.0;}
@@ -164,7 +166,8 @@ a:hover { color: var(--primary-color); }
 .hero__scroll-btn {
   position: absolute;
   left: 50%;
-  bottom: 38px;
+  right: 50%;
+  bottom: -10px;
   transform: translateX(-50%) , translateY(-50%) ;
   z-index: 1;
   color: var(--bs-light);
@@ -214,9 +217,9 @@ a:hover { color: var(--primary-color); }
   margin: 0 auto;
 }
 
-.steps--background {
+/* .steps--background {
   background-color: #fdb934;
-}
+} */
 
 @media (min-width: 544px) {
   .steps {
