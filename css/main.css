@@ -132,7 +132,7 @@ a:hover { color: var(--primary-color); }
 
   .hero {
     position: relative;
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
     background-color: #fbb824;
     overflow: hidden;
@@ -142,6 +142,7 @@ a:hover { color: var(--primary-color); }
   .hero__scroll-btn {
   
     bottom: -38px;
+    visibility: hidden;
  
   
   }
@@ -266,6 +267,7 @@ a:hover { color: var(--primary-color); }
   .steps__section-thumbnail {
     height: auto;
   }
+
 }
 
 
@@ -278,7 +280,7 @@ a:hover { color: var(--primary-color); }
 @media(max-aspect-ratio:16/9) {
   #vid{
     width: 100%;
-    height: 20%;
+    height: 100%;
   }
 }
 
